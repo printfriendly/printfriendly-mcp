@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "printfriendly": {
+      "url": "https://mcp.printfriendly.com",
+      "headers": {
+        "Authorization": "Bearer ${PRINTFRIENDLY_API_KEY}"
+      }
+    }
+  }
+}

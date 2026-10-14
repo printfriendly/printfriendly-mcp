@@ -1,0 +1,25 @@
+{
+  "name": "printfriendly",
+  "displayName": "PrintFriendly",
+  "description": "Read clean web pages and make PDF, Word and Markdown files from any URL.",
+  "version": "1.0.0",
+  "author": {
+    "name": "PrintFriendly"
+  },
+  "license": "MIT",
+  "homepage": "https://www.printfriendly.com/help/api-mcp",
+  "repository": "https://github.com/printfriendly/printfriendly-mcp",
+  "keywords": ["web", "pdf", "docx", "markdown", "reader", "mcp", "printfriendly"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "PRINTFRIENDLY_API_KEY": {
+        "type": "string",
+        "title": "PrintFriendly API key",
+        "description": "Your PrintFriendly API key, sent as a Bearer token. Get a free key (100 documents a month) at https://www.printfriendly.com/me/api-key"
+      }
+    },
+    "required": ["PRINTFRIENDLY_API_KEY"]
+  }
+}
