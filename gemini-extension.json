@@ -1,0 +1,22 @@
+{
+  "name": "printfriendly",
+  "version": "1.0.0",
+  "description": "Read clean web pages and make PDF, Word and Markdown files from any URL.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "printfriendly": {
+      "httpUrl": "https://mcp.printfriendly.com",
+      "headers": {
+        "Authorization": "Bearer ${PRINTFRIENDLY_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "PrintFriendly API key",
+      "description": "Your PrintFriendly API key. Get a free key (100 documents a month) at https://www.printfriendly.com/me/api-key",
+      "envVar": "PRINTFRIENDLY_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
